@@ -1,0 +1,46 @@
+/* pages/pay/pay.wxss */
+.container{
+  padding: 0;
+}
+.banner{
+  width: 100%;
+  height: 230px;
+}
+.banner-img{
+  width: 100%;
+  height: 100%;
+}
+.timeLeft{
+  padding-top: 28px; 
+  color: #777777;
+}
+
+.amountInfo{
+  padding-top: 25px;
+}
+.amount{
+  font-size: 18px;
+  font-weight: bold;
+  color: red;
+}
+.waybillInfo{
+  padding-top: 25px;
+}
+.payBtn{
+  padding-top: 150px;
+  padding-bottom: 30px;
+}
+.pay{
+  padding: 10px 14px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  background-color: #373CD6;
+  border-radius: 50px;
+}
+.pay-hover{
+  opacity: 0.8;
+}
+.back{
+  margin-top: 20px;
+}

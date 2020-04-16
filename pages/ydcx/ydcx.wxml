@@ -1,0 +1,2 @@
+<!--pages/ydcx/ydcx.wxml-->
+<web-view src="https://reg.gdzxjy.net/web/search.html?yundan=1"></web-view>

@@ -1,0 +1,77 @@
+/**index.wxss**/
+.container{
+  padding: 0;
+  min-height: 100vh; 
+  align-items: flex-start;
+}
+.banner{
+  width: 100%;
+  height: 460rpx;
+}
+.banner-img{
+  width: 100%;
+  height: 100%;
+}
+.platform{
+  width: 100%;
+  padding-top: 60rpx;
+}
+.platform .pf-icon{
+  display: block;
+  width: 240rpx;
+  height: 54rpx;
+  margin: 0 auto 50rpx;
+}
+.platform .pf-title{
+  display: flex;
+  padding: 0 20rpx;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 32rpx;
+  margin-bottom: 70rpx;
+}
+.platform .pf-title .item{
+  margin: 0 40rpx;
+  text-align: center;
+}
+.platform .pf-title .item .item-img{
+  display: block;
+  margin: 0 auto;
+  width: 100rpx;
+  height: 100rpx;
+  margin-bottom: 20rpx;
+}
+.platform .pf-desc{
+  text-indent: 2em;
+  margin: 6rpx 20rpx;
+  padding: 6rpx 20rpx;
+  line-height: 70rpx;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05), 0 5px 10px rgba(0, 0, 0, 0.12);
+}
+.service{
+  margin-top: 30rpx;
+}
+.service .service-more{
+  color: #1965FC;
+  font-size: 24rpx;
+}
+.about{
+  width: 100%;
+  padding-top: 40rpx;
+  margin-bottom: 50rpx;
+}
+.about .ab-icon{
+  display: block;
+  width: 236rpx;
+  height: 54rpx;
+  margin: 0 auto 40rpx;
+}
+.about .ab-desc{
+  text-indent: 2em;
+  line-height: 56rpx;
+  padding: 0 40rpx;
+}
+.about .ab-more{
+  color: #1965FC;
+}

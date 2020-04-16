@@ -1,0 +1,15 @@
+<!--pages/paid/paid.wxml-->
+<view class="container">
+  <view class="banner">
+    <image class="banner-img" src="images/banner.jpg"></image>
+  </view>
+  <view class="icon-group">
+    <icon type="success" size="60"></icon>
+  </view>
+  <view class="payment">
+    <text class="payment_txt">支付成功</text>
+  </view>
+  <view class="payBtn">
+    <button open-type="launchApp" app-parameter="zxfd" binderror="launchAppError" class="back" style="width:80vw;">返回 APP</button>
+  </view>
+</view>

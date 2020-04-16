@@ -1,0 +1,75 @@
+<!--index.wxml-->
+<view class="container">
+  <!-- banner图 -->
+  <view class="banner" bindtap="bannerClick">
+    <image class="banner-img" src="images/banner.jpg"></image>
+  </view>
+  <!-- 查询服务 -->
+  <view class=" platform">
+    <view class="pf-title">
+      <view class="item" bindtap="ydQuery">
+        <image class="item-img" src="images/ydcx.png"></image>
+        <text>运单查询</text>
+      </view>
+      <view class="item" bindtap="zxInquiry">
+        <image class="item-img" src="images/zxxj.png"></image>
+        <text>在线询价</text>
+      </view>
+      <view class="item" bindtap="contact">
+        <image class="item-img" src="images/lxwm.png"></image>
+        <text>联系我们</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 平台优势 -->
+  <view class="platform">
+    <image class="pf-icon" src="images/about-icont1.png"></image>
+    <view class="pf-title">
+      <view class="item">
+        <image class="item-img" src="images/hfw20.png"></image>
+        <text>全国24小时服务调度</text>
+      </view>
+      <view class="item">
+        <image class="item-img" src="images/anqhd.png"></image>
+        <text>一站式安全无忧运输</text>
+      </view>
+      <view class="item">
+        <image class="item-img" src="images/zdpw.png"></image>
+        <text>大数据决策分析赋能</text>
+      </view>
+    </view>
+    <view class="pf-desc">平台致力于服务公路整车运输市场和构建集约高效的生态环境；我们以线上平台为依托，努力整合行业资源，将线上线下业务场景相结合，打造公开透明的交易环境，并紧跟时代步伐，利用好科技技术，保障资金、货物、运输安全。</view> 
+  </view>
+
+  <!-- 平台服务 -->
+  <view class="service platform">
+    <image class="pf-icon" src="images/s-i.png"></image>
+    <view class="pf-title">
+      <view class="item" bindtap="zcClick">
+        <image class="item-img" src="images/zc.png"></image>
+        <text>整车服务 →</text>
+        <text class="service-more">了解更多</text>
+      </view>
+      <view class="item" bindtap="jrClick">
+        <image class="item-img" src="images/jr.png"></image>
+        <text>金融服务 →</text>
+        <text class="service-more">了解更多</text>
+      </view>
+      <view class="item" bindtap="kpClick">
+        <image class="item-img" src="images/kp.png"></image>
+        <text>开票服务 →</text>
+        <text class="service-more">了解更多</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 关于中象 -->
+  <view class="about">
+    <image class="ab-icon" src="images/about.png"></image>
+    <view class="ab-desc">中象福达品牌定位为：“智慧整车物流交易平台引领者”；业务定位为：公路货物运输综合服务。
+      <text class="ab-more" bindtap="abMore">关于我们</text>
+    </view>
+  </view>
+
+</view>

@@ -1,0 +1,30 @@
+/* pages/paid/paid.wxss */
+.container{
+  padding: 0;
+}
+.banner{
+  width: 100%;
+  height: 460rpx;
+}
+.banner-img{
+  width: 100%;
+  height: 100%;
+}
+.icon-group{
+  padding-top: 100rpx;
+}
+.payment_txt{
+  font-size: 36rpx;
+  font-weight: bold;
+}
+
+.back{
+  padding: 15rpx 28rpx;
+  margin-top: 28vh;
+  margin-bottom: 60rpx;
+  font-size: 34rpx;
+  font-weight: 500;
+  color: #fff;
+  background-color: #373CD6;
+  border-radius: 40px;
+}

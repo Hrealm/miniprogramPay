@@ -1,0 +1,22 @@
+<!--pages/pay/pay.wxml-->
+<view class="container">
+  <view class="banner">
+    <image class="banner-img" src="images/banner.jpg"></image>
+  </view>
+  <view class="timeLeft">
+    <text class="timeDesc">剩余支付时间：</text>
+    <text class="time">{{clock}}</text>
+  </view>
+  <view class="amountInfo">
+    <text class="amountDesc">待支付：</text>
+    <text class="amount">{{amount}} 元</text>
+  </view>
+  <view class="waybillInfo">
+    <text class="waybillDesc">运单号：</text>
+    <text class="waybill">{{waybill}}</text>
+  </view>
+  <view class="payBtn">
+    <button bindtap="{{ !isClicked? 'comfirmPay' : '' }}" class="pay" hover-class="pay-hover" style="width:80vw;">确认支付</button>
+    <!-- <button open-type="launchApp" app-parameter="wechat" binderror="launchAppError" class="back">返回APP</button> -->
+  </view>
+</view>

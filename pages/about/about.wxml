@@ -1,0 +1,35 @@
+<!--pages/about/about.wxml-->
+<view class="container">
+  <!-- banner图 -->
+  <view class="banner">
+   <image class="banner-img" src="images/banner.jpg"></image>
+  </view>
+
+  <!-- 关于 -->
+  <view class="about-bg">
+    <image class="head-icon" src="images/icon.jpg"></image>
+    <view class="ab-desc">
+      <view class="title">中象福达</view>
+      <view>智慧整车物流交易平台引领者</view>
+      <view>品质源于专业 服务铸就品牌</view>
+      <view class="kw-wrap">
+        <text class="keyword">整车</text>
+        <text class="keyword">专业</text>
+        <text class="keyword">海量运力</text>
+        <text class="keyword">个性服务</text>
+        <text class="keyword">安全保障</text>
+      </view>
+    </view>
+    <view class="btn">
+      <text class="itBtn" bindtap="zxInquiry">下单在线询价</text>
+      <text class="itBtn" bindtap="contact">拨打电话咨询</text>
+    </view>
+    <!-- 运营商招募 -->
+    <view class="yyszm">
+      <view class="yy-desc"><text class="yy-title">运营商</text> 招募</view>
+      <view class="yy-desc">统一平台管理，统一服务标准，统一运营协作</view>
+      <view class="yy-desc">招商热线：<text class="yy-title">400-666-7056 转 2</text> </view>
+    </view>
+  </view>
+
+</view>

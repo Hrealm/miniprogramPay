@@ -1,0 +1,23 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/pay/pay",
+    "pages/paid/paid",
+    "pages/logs/logs",
+    "pages/about/about",
+    "pages/zcfw/zcfw",
+    "pages/jrfw/jrfw",
+    "pages/kpfw/kpfw",
+    "pages/ydcx/ydcx",
+    "pages/zxxj/zxxj",
+    "pages/banner/banner"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "中象福达",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
